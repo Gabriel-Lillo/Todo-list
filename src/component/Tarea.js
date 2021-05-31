@@ -9,10 +9,10 @@ const Tarea = (props) => {
 
     return (
         <div>
-            <nav className="navbar navbar-light bg-light border border-top-0">
+            <nav className="navbar navbar-light bg-light border border-top-0 shadow">
                 <div className="container">
                     <a className="navbar-brand">{props.tarea}</a>
-                    <button className="btn btn-outline-success border-0" onClick={borrarTarea}>x</button>
+                    <button className="btn btn-outline-warning border-0" onClick={borrarTarea}>x</button>
                 </div>
             </nav>
         </div>
